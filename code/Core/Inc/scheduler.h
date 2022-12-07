@@ -9,6 +9,12 @@
 #define INC_SCHEDULER_H_
 
 #include <stdint.h>
+#include <stdio.h>
+#include "toggle_led.h"
+#include "main.h"
+#include <string.h>
+
+extern char str[50];
 
 
 #define TICK																			10
